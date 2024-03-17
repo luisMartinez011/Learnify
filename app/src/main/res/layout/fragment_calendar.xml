@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CalendarFragment">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+         android:hint="Evento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/calendarView"/>
+
+    <Button
+        android:id="@+id/botonp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="22dp"
+        android:text=" Guardar"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/calendarView"
+        android:layout_toRightOf="@+id/editText"/>
+
+    <EditText
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Grupo(Opcional)"
+
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_below="@id/editText"
+
+        android:textColorHint="@color/white"
+         />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_cal"
+        android:layout_width="367dp"
+        android:layout_height="217dp"
+        android:layout_below="@id/group"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="42dp" />
+</RelativeLayout>

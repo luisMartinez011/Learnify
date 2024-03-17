@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "283523365189",
+    "firebase_url": "https://bd-dispm-default-rtdb.firebaseio.com",
+    "project_id": "bd-dispm",
+    "storage_bucket": "bd-dispm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283523365189:android:3aedab159eb658f426662c",
+        "android_client_info": {
+          "package_name": "com.example.aplicacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283523365189-hpdj6dfagqjmj79nq1om816nvn02ug4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoxVTrULU8kHdbUdZ-IP16-UWBz6Uv2dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283523365189-hpdj6dfagqjmj79nq1om816nvn02ug4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

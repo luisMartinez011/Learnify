@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hurricane</string>
+
+
+
+
+    <string name="btn_iniciarPantalla">Sign up</string>
+    <string name="btn_registrarPantalla">Check in</string>
+    <string name="btn_chat">Chat</string>
+
+    <string name="usuario">User</string>
+    <string name="correo">Email</string>
+
+    <string name="btn_cambiarfoto">Upload profile picture</string>
+
+
+    <string name="contraseña">Password</string>
+    <string name="rcontraseña">Repeat password</string>
+    <string name="bio">Bio</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Last name</string>
+
+    <string name="btn_iniciarSesion">Sign up</string>
+    <string name="btn_registrarseSesion">Check in</string>
+    <string name="btn_cerrarSesion">Log out </string>
+
+    <string name="cambio">Change language </string>
+
+    <string name="comentario">The language has been succesfully change</string>
+    <string name="titulo">Welcome!</string>
+    <string name="admin" >Admin</string>
+
+    <string name="escriba_mensaje">Write a message</string>
+    <string name="enviar">Send</string>
+
+
+
+
+</resources>

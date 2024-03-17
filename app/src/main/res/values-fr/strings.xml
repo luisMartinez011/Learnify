@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hurricane</string>
+    <string name="btn_iniciarPantalla">S identifier</string>
+
+
+    <string name="btn_registrarPantalla">Registraire</string>
+    <string name="btn_chat"> Messages</string>
+    <string name="usuario">Utilisateur</string>
+    <string name="correo">E-mail</string>
+
+    <string name="contraseña">Mot de passe</string>
+    <string name="rcontraseña">Répéter le mot de passe</string>
+
+    <string name="btn_cambiarfoto">Mettre à jour la photo de profil</string>
+
+
+    <string name="nombre">Nom</string>
+    <string name="apellido">Prénom</string>
+
+    <string name="bio">Bio</string>
+    <string name="btn_iniciarSesion">S identifier</string>
+
+    <string name="btn_registrarseSesion">Registraire</string>
+    <string name="btn_cerrarSesion">Se deconnecter</string>
+
+
+    <string name="cambio">Changer language</string>
+
+    <string name="comentario">La langue a été changée avec succès</string>
+
+    <string name="titulo">Bienvenue!</string>
+    <string name="admin" >Admin</string>
+
+    <string name="escriba_mensaje">Écrire un message</string>
+    <string name="enviar">Envoyer</string>
+
+</resources>
